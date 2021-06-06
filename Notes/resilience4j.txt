@@ -1,0 +1,16 @@
+Resilience4j : fault tolerance library : CircuitBreaker Framework
+Resilience4j is a lightweight, easy-to-use fault tolerance library inspired by
+Netflix Hystrix.
+
+1) Retry :
+	How many number of retry to the perticular rest client is allowed before the error is thrown'
+	
+2) CircuitBreaker : Open , Closed , Open-Closed
+	If the huge number of calls are made to the rest client the circuitbreaker will move
+	to the diffent states
+	
+3) Rate Limiting :  10s => 10,000 calls to sample-api :
+ limiting the number of rest calls made to rest api per period of time 
+ 
+4) Bulkhead :  how many concurrent calls are allowed : 10 concurrent calls
+	we can send 10 concurrent calls to the rest api 

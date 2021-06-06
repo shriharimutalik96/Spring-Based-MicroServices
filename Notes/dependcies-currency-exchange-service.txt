@@ -1,0 +1,6 @@
+Spring dependencies for currency-exchange-service
+
+1)Spring Boot DEVTOOLS
+2)Spring boot Actuator
+3)Spring web
+4)Config Client : Because we want to talk to the config server

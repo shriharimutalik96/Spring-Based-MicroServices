@@ -1,0 +1,6 @@
+												@Entity
+Currency Conversion Microservice ----> Currency Exhange Microservice -----> H2 Database
+
+
+Currency Conversion Microservice calls the Currency Exhange Microservice 
+which intern retrive the data from the in-memory h2 database.

@@ -1,0 +1,10 @@
+What if one of the microservices is down or slow..?
+It impacts the entire chain 
+
+Questions:
+* Can we return a fallback response if a service is down
+* Can we impliment a Circuit Breaker Pattern to reduce the load..?
+* Can we retry requests if the microservices in case of temporary failures..?
+* Can we impliment rate limiting ..?
+
+Solution : Circuit Breaker Framework : Resiliance4j

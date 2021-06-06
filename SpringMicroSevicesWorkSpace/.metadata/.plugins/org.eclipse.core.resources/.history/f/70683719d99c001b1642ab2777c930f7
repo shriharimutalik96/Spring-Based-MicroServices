@@ -1,0 +1,8 @@
+server.port = 8080
+spring.application.name = limits-service
+spring.config.import=optional:configserver:http://localhost:8889
+spring.application.name = limit-service
+limit-sevice.minimum = 2
+limit-sevice.maximum = 1525
+
+

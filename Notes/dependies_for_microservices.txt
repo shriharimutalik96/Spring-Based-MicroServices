@@ -1,0 +1,20 @@
+Dependices for microservices -limit-service
+1) Spring web
+2) Spring boot dev tools
+3) Spring Boot Actuator
+4) Config client ( Spring Cloud Config )
+
+
+Dependices for microservices for spring-cloud-config-server
+1) Spring boot dev tools
+2) Config sever
+
+GIT is one of the popular version controls ystem used in the industry 
+
+To initialize an empty git repository 
+git init
+To add the files to the git repository : git add *
+
+To Commit : git commit -m "adding limits-service.properties"
+
+git config --global user.email "shriharimutalik96@gmail.com"

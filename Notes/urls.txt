@@ -1,0 +1,14 @@
+URLS :
+
+Currency Exchange Service :
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+
+Currency Conversion Service : 
+http://localhost:8000/currency-exchange/from/USD/to/INR/quantity/10
+
+Creating multiple instances of the same micro-service
+To run an micro-service on different ports
+Run Configurations --> Change the name to include the server port number --> 
+Change the arguements -->
+-Dserver.port=8001 or any port number you want

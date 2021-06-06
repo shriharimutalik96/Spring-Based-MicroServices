@@ -1,0 +1,7 @@
+spring.config.import=optional:configserver:http://localhost:8888
+server.port = 8080
+spring.application.name = limit-service
+limit-sevice.minimum = 2
+limit-sevice.maximum = 1525
+spring.cloud.config.server.git.uri = file:///D:/Courses/SpringWebServices28inutes/git-localconfig-repo
+

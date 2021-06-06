@@ -1,0 +1,5 @@
+Steps invloved in MicroServices
+
+1) Create Limits MicroServices
+2) Create Spring Cloud Config Server
+3) Git Repo

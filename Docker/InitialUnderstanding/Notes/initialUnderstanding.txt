@@ -1,0 +1,27 @@
+1) To run the docker container in the local machine 
+on port 5000 getting info from container port 5000 :
+docker run -p 5000:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+-p 5000:5000=> -p {HostPort}:{ContainerPort} 
+
+2) Ruuning the docker container in detached mode :
+	docker run -p 5002:5000 -d in28min/todo-rest-api-h2:1.0.0.RELEASE
+
+3)  To see the logs : 
+	docker logs container-id
+	docker logs -f container-id
+
+4)	To see the all the containers which are running : 
+	docker container ls
+	To see both running and stopped containers : --->
+	docker container ls -a
+
+5)	To run the container on another port in the local machine : ----->
+	docker run -p 5001:5000 in28min/todo-rest-api-h2:1.0.0.RELEASE
+	
+6) To see all the docker images present in the machine
+	docker images
+	
+7) To stop the container :
+	If the container is running norml mode Control+C
+	If the container is running in detached mode : docker container {ID_Container}

@@ -1,0 +1,12 @@
+Spring Cloud Gateway
+
+1) Simple ,yet effective way to route API's
+2) Provide cross-cutting concerns
+	* Security
+	* Monitoring / metrics
+3) Built on top of Spring Webflux (Reactive Approach)
+4) Features :
+	* Match routes on any request attributes
+	* Define predicates and Filters
+5) Integrates with Spring Cloud Discovery Client ( Load Balancing )
+6) Path Re-writing

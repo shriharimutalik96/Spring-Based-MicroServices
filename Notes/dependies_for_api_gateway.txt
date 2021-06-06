@@ -1,0 +1,7 @@
+Dependencies for API Gateway
+
+1) Spring Boot DevTools
+2) Config Client
+3) Spring Boot Actuator
+4) Eureka Discovery Client
+5) Gateway ( API )
